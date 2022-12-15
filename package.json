@@ -1,0 +1,18 @@
+{
+  "name": "proyecto-node-traduce",
+  "version": "1.0.0",
+  "description": "buscare api traductor",
+  "main": "index.js",
+  "scripts": {
+    "start": "node .",
+    "stop": "node ./armar-para-excel/armar_para_excel.js"
+  },
+  "author": "cristianmultiutn@hotmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "node-fetch": "^3.2.6",
+    "puppeteer": "^15.2.0",
+    "undici": "^5.5.1"
+  }
+}
